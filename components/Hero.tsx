@@ -8,7 +8,7 @@ type Props = {}
 
 export default function Hero({}: Props) {
     const [text , count] = useTypewriter({
-        words:["Mic","Gric","<Zlocimis />"],
+        words:["Student","Programer","<Kursadzija />"],
         loop:true,
         delaySpeed:2000,
     });
@@ -27,13 +27,13 @@ export default function Hero({}: Props) {
            <Link href="#about">
             <button className='heroButton'>About</button>
             </Link>
-           <Link href="#about">
+           <Link href="#experience">
             <button className='heroButton'>Experience</button>
             </Link>
-           <Link href="#about">
+           <Link href="#skills">
             <button className='heroButton'>Skills</button>
             </Link>
-           <Link href="#about">
+           <Link href="#projects">
             <button className='heroButton'>Projects</button>
             </Link >
         </div>
