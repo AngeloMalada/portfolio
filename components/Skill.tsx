@@ -10,7 +10,7 @@ export default function Skill({directionleft}: Props) {
 
     <motion.img 
     initial={{
-        x:directionleft ? -100:100,
+        x:directionleft ? -200:200,
         opacity:0
     }}
     transition={{
@@ -24,7 +24,7 @@ export default function Skill({directionleft}: Props) {
 
     <motion.div
     initial={{
-        x:directionleft ? -100:100,
+        x:directionleft ? -200:200,
     
     }}
     transition={{

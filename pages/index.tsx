@@ -9,26 +9,26 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div className=" bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory scroll-smooth overflow-x-hidden z-0">
+    <div className=" bg-[rgb(36,36,36)] text-white h-screen scroll-smooth overflow-x-hidden z-0">
       <Head>
         <title>Angelo portfolio</title>
       </Head>
   
     <Header />
-    <section id="hero" className='snap-start'>
+    <section id="hero" >
     <Hero />
     </section> 
 
-    <section id="about" className='snap-center'>
+    <section id="about" >
       <About />
     </section>
 
-    <section id="experience" className='snap-center'>
+    <section id="experience" >
       <Experience />
     </section>
 
 
-    <section id="skills" className='snap-center'>
+    <section id="skills" >
       <Skills />
 
     </section>
