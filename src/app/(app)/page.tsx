@@ -44,7 +44,7 @@ export default async function Home() {
         </p>
         <div className="flex justify-center">
           <Button asChild className="flex items-center">
-            <a href="mailto:your-email@example.com">
+            <a href="mailto:contact@angelomalada.dev">
               <Mail className="mr-2 h-4 w-4" />
               Contact Me
             </a>
