@@ -15,7 +15,7 @@ export default async function Home() {
       <Contact /> */}
 
       {/* WIP PLACEHOLDER */}
-      <div className="mx-auto max-w-md text-center">
+      <div className="mx-auto flex h-full max-w-md flex-col items-center justify-center text-center">
         <div className="mb-8">
           <svg
             className="mx-auto h-16 w-16 animate-spin text-primary"
