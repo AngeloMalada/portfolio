@@ -6,10 +6,6 @@ import { Mail } from 'lucide-react';
 const projects = await trpc.payload.getProjects.query();
 
 export default async function Home() {
-  //WIP PLACEHOLDER
-  const handleContact = () => {
-    window.location.href = 'mailto:contact@angelomalada.dev';
-  };
   return (
     <div className="scrollbar-hide h-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth">
       {/* <Header />
@@ -47,9 +43,11 @@ export default async function Home() {
           soon!
         </p>
         <div className="flex justify-center">
-          <Button onClick={handleContact} className="flex items-center">
-            <Mail className="mr-2 h-4 w-4" />
-            Contact Me
+          <Button asChild className="flex items-center">
+            <a href="mailto:your-email@example.com">
+              <Mail className="mr-2 h-4 w-4" />
+              Contact Me
+            </a>
           </Button>
         </div>
       </div>
